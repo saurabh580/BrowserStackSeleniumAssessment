@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="108.174" tests="9" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="24"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/saurabhgaur/IdeaProjects/BrowserStackSeleniumAssessment/target/test-classes:/Users/saurabhgaur/IdeaProjects/BrowserStackSeleniumAssessment/target/classes:/Users/saurabhgaur/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/saurabhgaur/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/saurabhgaur/.m2/repository/org/testng/testng/7.10.1/testng-7.10.1.jar:/Users/saurabhgaur/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/saurabhgaur/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/saurabhgaur/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/saurabhgaur/.m2/repository/org/seleniumhq/selenium/selenium-java/4.26.0/selenium-java-4.26.0.jar:/Users/saurabhgaur/.m2/repository/org/seleniumhq/selenium/selenium-api/4.26.0/selenium-api-4.26.0.jar:/Users/saurabhgaur/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/saurabhgaur/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.26.0/selenium-chrome-driver-4.26.0.jar:/Users/saurabhgaur/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/saurabhgaur/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.26.0/selenium-chromium-driver-4.26.0.jar:/Users/saurabhgaur/.m2/repository/org/seleniumhq/selenium/selenium-json/4.26.0/selenium-json-4.26.0.jar:/Users/saurabhgaur/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.26.0/selenium-manager-4.26.0.jar:/Users/saurabhgaur/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v128/4.26.0/selenium-devtools-v128-4.26.0.jar:/Users/saurabhgaur/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v129/4.26.0/selenium-devtools-v129-4.26.0.jar:/Users/saurabhgaur/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v130/4.26.0/selenium-devtools-v130-4.26.0.jar:/Users/saurabhgaur/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.26.0/selenium-devtools-v85-4.26.0.jar:/Users/saurabhgaur/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.26.0/selenium-edge-driver-4.26.0.jar:/Users/saurabhgaur/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.26.0/selenium-firefox-driver-4.26.0.jar:/Users/saurabhgaur/.m2/repository/org/seleniumhq/selenium/selenium-http/4.26.0/selenium-http-4.26.0.jar:/Users/saurabhgaur/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/Users/saurabhgaur/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.26.0/selenium-ie-driver-4.26.0.jar:/Users/saurabhgaur/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.26.0/selenium-remote-driver-4.26.0.jar:/Users/saurabhgaur/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.25.0-alpha/opentelemetry-semconv-1.25.0-alpha.jar:/Users/saurabhgaur/.m2/repository/io/opentelemetry/opentelemetry-api/1.43.0/opentelemetry-api-1.43.0.jar:/Users/saurabhgaur/.m2/repository/io/opentelemetry/opentelemetry-context/1.43.0/opentelemetry-context-1.43.0.jar:/Users/saurabhgaur/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.43.0/opentelemetry-exporter-logging-1.43.0.jar:/Users/saurabhgaur/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.43.0/opentelemetry-sdk-common-1.43.0.jar:/Users/saurabhgaur/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.43.0/opentelemetry-sdk-extension-autoconfigure-spi-1.43.0.jar:/Users/saurabhgaur/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.43.0/opentelemetry-sdk-extension-autoconfigure-1.43.0.jar:/Users/saurabhgaur/.m2/repository/io/opentelemetry/opentelemetry-api-incubator/1.43.0-alpha/opentelemetry-api-incubator-1.43.0-alpha.jar:/Users/saurabhgaur/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.43.0/opentelemetry-sdk-trace-1.43.0.jar:/Users/saurabhgaur/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.43.0/opentelemetry-sdk-1.43.0.jar:/Users/saurabhgaur/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.43.0/opentelemetry-sdk-metrics-1.43.0.jar:/Users/saurabhgaur/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.43.0/opentelemetry-sdk-logs-1.43.0.jar:/Users/saurabhgaur/.m2/repository/net/bytebuddy/byte-buddy/1.15.7/byte-buddy-1.15.7.jar:/Users/saurabhgaur/.m2/repository/org/seleniumhq/selenium/selenium-os/4.26.0/selenium-os-4.26.0.jar:/Users/saurabhgaur/.m2/repository/org/apache/commons/commons-exec/1.4.0/commons-exec-1.4.0.jar:/Users/saurabhgaur/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.26.0/selenium-safari-driver-4.26.0.jar:/Users/saurabhgaur/.m2/repository/org/seleniumhq/selenium/selenium-support/4.26.0/selenium-support-4.26.0.jar:/Users/saurabhgaur/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar:/Users/saurabhgaur/.m2/repository/io/reactivex/rxjava3/rxjava/3.1.6/rxjava-3.1.6.jar:/Users/saurabhgaur/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/Users/saurabhgaur/.m2/repository/org/freemarker/freemarker/2.3.32/freemarker-2.3.32.jar:/Users/saurabhgaur/.m2/repository/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar:/Users/saurabhgaur/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/saurabhgaur/.m2/repository/io/github/bonigarcia/webdrivermanager/5.9.1/webdrivermanager-5.9.1.jar:/Users/saurabhgaur/.m2/repository/com/github/docker-java/docker-java/3.3.6/docker-java-3.3.6.jar:/Users/saurabhgaur/.m2/repository/com/github/docker-java/docker-java-core/3.3.6/docker-java-core-3.3.6.jar:/Users/saurabhgaur/.m2/repository/com/github/docker-java/docker-java-api/3.3.6/docker-java-api-3.3.6.jar:/Users/saurabhgaur/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/Users/saurabhgaur/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/Users/saurabhgaur/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/saurabhgaur/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.3.6/docker-java-transport-httpclient5-3.3.6.jar:/Users/saurabhgaur/.m2/repository/com/github/docker-java/docker-java-transport/3.3.6/docker-java-transport-3.3.6.jar:/Users/saurabhgaur/.m2/repository/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar:/Users/saurabhgaur/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/saurabhgaur/.m2/repository/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar:/Users/saurabhgaur/.m2/repository/org/apache/commons/commons-compress/1.26.2/commons-compress-1.26.2.jar:/Users/saurabhgaur/.m2/repository/com/browserstack/browserstack-java-sdk/1.36.1/browserstack-java-sdk-1.36.1.jar:/Users/saurabhgaur/.m2/repository/com/konghq/unirest-java/3.13.6/unirest-java-3.13.6.jar:/Users/saurabhgaur/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/saurabhgaur/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/saurabhgaur/.m2/repository/org/apache/httpcomponents/httpcore-nio/4.4.13/httpcore-nio-4.4.13.jar:/Users/saurabhgaur/.m2/repository/org/apache/httpcomponents/httpasyncclient/4.1.5/httpasyncclient-4.1.5.jar:/Users/saurabhgaur/.m2/repository/org/blocks4j/commons/blocks4j-commons-classpath/1.0.1/blocks4j-commons-classpath-1.0.1.jar:/Users/saurabhgaur/.m2/repository/commons-io/commons-io/2.19.0/commons-io-2.19.0.jar:/Users/saurabhgaur/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2/httpclient5-5.2.jar:/Users/saurabhgaur/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2.jar:/Users/saurabhgaur/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2/httpcore5-h2-5.2.jar:/Users/saurabhgaur/.m2/repository/com/google/cloud/google-cloud-translate/2.24.0/google-cloud-translate-2.24.0.jar:/Users/saurabhgaur/.m2/repository/io/grpc/grpc-api/1.56.1/grpc-api-1.56.1.jar:/Users/saurabhgaur/.m2/repository/io/grpc/grpc-context/1.56.1/grpc-context-1.56.1.jar:/Users/saurabhgaur/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/saurabhgaur/.m2/repository/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar:/Users/saurabhgaur/.m2/repository/io/grpc/grpc-stub/1.56.1/grpc-stub-1.56.1.jar:/Users/saurabhgaur/.m2/repository/io/grpc/grpc-protobuf/1.56.1/grpc-protobuf-1.56.1.jar:/Users/saurabhgaur/.m2/repository/io/grpc/grpc-protobuf-lite/1.56.1/grpc-protobuf-lite-1.56.1.jar:/Users/saurabhgaur/.m2/repository/com/google/api/api-common/2.16.0/api-common-2.16.0.jar:/Users/saurabhgaur/.m2/repository/com/google/auto/value/auto-value-annotations/1.10.2/auto-value-annotations-1.10.2.jar:/Users/saurabhgaur/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/Users/saurabhgaur/.m2/repository/com/google/protobuf/protobuf-java/3.23.2/protobuf-java-3.23.2.jar:/Users/saurabhgaur/.m2/repository/com/google/api/grpc/proto-google-common-protos/2.24.0/proto-google-common-protos-2.24.0.jar:/Users/saurabhgaur/.m2/repository/com/google/api/grpc/proto-google-cloud-translate-v3beta1/0.106.0/proto-google-cloud-translate-v3beta1-0.106.0.jar:/Users/saurabhgaur/.m2/repository/com/google/api/grpc/proto-google-cloud-translate-v3/2.24.0/proto-google-cloud-translate-v3-2.24.0.jar:/Users/saurabhgaur/.m2/repository/com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.jar:/Users/saurabhgaur/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/saurabhgaur/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/saurabhgaur/.m2/repository/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.jar:/Users/saurabhgaur/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/Users/saurabhgaur/.m2/repository/com/google/api/gax/2.33.0/gax-2.33.0.jar:/Users/saurabhgaur/.m2/repository/io/opencensus/opencensus-api/0.31.1/opencensus-api-0.31.1.jar:/Users/saurabhgaur/.m2/repository/com/google/api/gax-grpc/2.33.0/gax-grpc-2.33.0.jar:/Users/saurabhgaur/.m2/repository/io/grpc/grpc-alts/1.56.1/grpc-alts-1.56.1.jar:/Users/saurabhgaur/.m2/repository/io/grpc/grpc-grpclb/1.56.1/grpc-grpclb-1.56.1.jar:/Users/saurabhgaur/.m2/repository/org/conscrypt/conscrypt-openjdk-uber/2.5.2/conscrypt-openjdk-uber-2.5.2.jar:/Users/saurabhgaur/.m2/repository/io/grpc/grpc-auth/1.56.1/grpc-auth-1.56.1.jar:/Users/saurabhgaur/.m2/repository/io/grpc/grpc-netty-shaded/1.56.1/grpc-netty-shaded-1.56.1.jar:/Users/saurabhgaur/.m2/repository/io/perfmark/perfmark-api/0.26.0/perfmark-api-0.26.0.jar:/Users/saurabhgaur/.m2/repository/io/grpc/grpc-core/1.56.1/grpc-core-1.56.1.jar:/Users/saurabhgaur/.m2/repository/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.jar:/Users/saurabhgaur/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.23/animal-sniffer-annotations-1.23.jar:/Users/saurabhgaur/.m2/repository/io/grpc/grpc-googleapis/1.56.1/grpc-googleapis-1.56.1.jar:/Users/saurabhgaur/.m2/repository/io/grpc/grpc-xds/1.56.1/grpc-xds-1.56.1.jar:/Users/saurabhgaur/.m2/repository/io/opencensus/opencensus-proto/0.2.0/opencensus-proto-0.2.0.jar:/Users/saurabhgaur/.m2/repository/io/grpc/grpc-services/1.56.1/grpc-services-1.56.1.jar:/Users/saurabhgaur/.m2/repository/com/google/re2j/re2j/1.7/re2j-1.7.jar:/Users/saurabhgaur/.m2/repository/com/google/api/gax-httpjson/2.33.0/gax-httpjson-2.33.0.jar:/Users/saurabhgaur/.m2/repository/com/google/http-client/google-http-client-gson/1.43.3/google-http-client-gson-1.43.3.jar:/Users/saurabhgaur/.m2/repository/com/google/protobuf/protobuf-java-util/3.23.2/protobuf-java-util-3.23.2.jar:/Users/saurabhgaur/.m2/repository/org/threeten/threetenbp/1.6.8/threetenbp-1.6.8.jar:/Users/saurabhgaur/.m2/repository/com/google/cloud/google-cloud-core/2.23.0/google-cloud-core-2.23.0.jar:/Users/saurabhgaur/.m2/repository/com/google/api/grpc/proto-google-iam-v1/1.19.0/proto-google-iam-v1-1.19.0.jar:/Users/saurabhgaur/.m2/repository/com/google/cloud/google-cloud-core-http/2.23.0/google-cloud-core-http-2.23.0.jar:/Users/saurabhgaur/.m2/repository/com/google/api-client/google-api-client/2.2.0/google-api-client-2.2.0.jar:/Users/saurabhgaur/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/saurabhgaur/.m2/repository/com/google/oauth-client/google-oauth-client/1.34.1/google-oauth-client-1.34.1.jar:/Users/saurabhgaur/.m2/repository/com/google/http-client/google-http-client-apache-v2/1.43.3/google-http-client-apache-v2-1.43.3.jar:/Users/saurabhgaur/.m2/repository/com/google/http-client/google-http-client-appengine/1.43.3/google-http-client-appengine-1.43.3.jar:/Users/saurabhgaur/.m2/repository/io/opencensus/opencensus-contrib-http-util/0.31.1/opencensus-contrib-http-util-0.31.1.jar:/Users/saurabhgaur/.m2/repository/com/google/apis/google-api-services-translate/v2-rev20170525-2.0.0/google-api-services-translate-v2-rev20170525-2.0.0.jar:/Users/saurabhgaur/.m2/repository/com/google/auth/google-auth-library-credentials/1.19.0/google-auth-library-credentials-1.19.0.jar:/Users/saurabhgaur/.m2/repository/com/google/auth/google-auth-library-oauth2-http/1.19.0/google-auth-library-oauth2-http-1.19.0.jar:/Users/saurabhgaur/.m2/repository/com/google/http-client/google-http-client/1.43.3/google-http-client-1.43.3.jar:/Users/saurabhgaur/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/saurabhgaur/.m2/repository/org/apache/httpcomponents/httpcore/4.4.16/httpcore-4.4.16.jar:/Users/saurabhgaur/.m2/repository/com/google/http-client/google-http-client-jackson2/1.43.3/google-http-client-jackson2-1.43.3.jar:/Users/saurabhgaur/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.15.2/jackson-core-2.15.2.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="OBSERVABILITY_BUILD_HASHED_ID" value="x74ryog8x2q1s8ueuno6qwpqbbbz98ycic5s2whq"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="suiteXmlFile" value="testng.xml"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="24"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/24.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/saurabhgaur/IdeaProjects/BrowserStackSeleniumAssessment/target/surefire/surefirebooter-20250713105021574_3.jar /Users/saurabhgaur/IdeaProjects/BrowserStackSeleniumAssessment/target/surefire 2025-07-13T10-50-21_536-jvmRun1 surefire-20250713105021574_1tmp surefire_0-20250713105021574_2tmp"/>
+    <property name="BROWSERSTACK_TESTHUB_JWT" value="eyJhbGciOiJSUzI1NiJ9.eyJleHAiOiIxNzUyMzk0ODI0IiwiaXNzIjoid3d3LmJyb3dzZXJzdGFjay5jb20iLCJzdWIiOjkyOTI2MTUsInNjb3BlIjp7InByb2R1Y3QiOiJzZGsiLCJ1c2VyX2FjY2VzcyI6eyJ0ZXN0X29ic2VydmFiaWxpdHkiOjEsImF1dG9tYXRlIjoxLCJhcHBfYXV0b21hdGUiOjEsInBlcmN5IjoxLCJhcHBfcGVyY3kiOjEsImFjY2Vzc2liaWxpdHlfdGVzdGluZyI6MCwiYXBwX2FjY2Vzc2liaWxpdHlfdGVzdGluZyI6MSwiYXV0b21hdGVfdHVyYm9zY2FsZSI6MSwibG93X2NvZGVfYXV0b21hdGlvbiI6MX0sImlhYW1fcm9sZSI6Im93bmVyIn0sImdyb3VwX2lkIjo5MjAzNzU4LCJ0ZWFtX2lkIjpudWxsLCJ1ZGFjX2FjY2VzcyI6Imdsb2JhbCJ9.f2bFELE3Sem809o2H_qYzNPtvO8QayOFi_TAzFn5VwOGD52Umsoum3SWW7AW2tlMpz6XTT_RG8iJxB5mqXPJ5UTCv5OtDMFfOgBl9SvKp3ENQmv8Id1IIWrw3h2jpGeChupmKqRuNNj5aZNZKwaz_sn3iuVSHGwgNcL5JKAzPXZTFRpoe5xEWJ_iJj20wjlyI_PgBsU1LsZlciWbQgrqTtBebRxCgirE_EoLE35Fs2dv2lePAxDJ3gpU1hHJVzX6LbZtzg9BuQuQu1Mhnqp9pzYL_vHj4RnmK8ml_gZZwW4sc3AVb1IbUQBJeGGvuiPsLwNzafnc62Nsk7njSFvVBA"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/saurabhgaur/IdeaProjects/BrowserStackSeleniumAssessment/target/test-classes:/Users/saurabhgaur/IdeaProjects/BrowserStackSeleniumAssessment/target/classes:/Users/saurabhgaur/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/saurabhgaur/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/saurabhgaur/.m2/repository/org/testng/testng/7.10.1/testng-7.10.1.jar:/Users/saurabhgaur/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/saurabhgaur/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/saurabhgaur/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/saurabhgaur/.m2/repository/org/seleniumhq/selenium/selenium-java/4.26.0/selenium-java-4.26.0.jar:/Users/saurabhgaur/.m2/repository/org/seleniumhq/selenium/selenium-api/4.26.0/selenium-api-4.26.0.jar:/Users/saurabhgaur/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/saurabhgaur/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.26.0/selenium-chrome-driver-4.26.0.jar:/Users/saurabhgaur/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/saurabhgaur/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.26.0/selenium-chromium-driver-4.26.0.jar:/Users/saurabhgaur/.m2/repository/org/seleniumhq/selenium/selenium-json/4.26.0/selenium-json-4.26.0.jar:/Users/saurabhgaur/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.26.0/selenium-manager-4.26.0.jar:/Users/saurabhgaur/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v128/4.26.0/selenium-devtools-v128-4.26.0.jar:/Users/saurabhgaur/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v129/4.26.0/selenium-devtools-v129-4.26.0.jar:/Users/saurabhgaur/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v130/4.26.0/selenium-devtools-v130-4.26.0.jar:/Users/saurabhgaur/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.26.0/selenium-devtools-v85-4.26.0.jar:/Users/saurabhgaur/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.26.0/selenium-edge-driver-4.26.0.jar:/Users/saurabhgaur/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.26.0/selenium-firefox-driver-4.26.0.jar:/Users/saurabhgaur/.m2/repository/org/seleniumhq/selenium/selenium-http/4.26.0/selenium-http-4.26.0.jar:/Users/saurabhgaur/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/Users/saurabhgaur/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.26.0/selenium-ie-driver-4.26.0.jar:/Users/saurabhgaur/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.26.0/selenium-remote-driver-4.26.0.jar:/Users/saurabhgaur/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.25.0-alpha/opentelemetry-semconv-1.25.0-alpha.jar:/Users/saurabhgaur/.m2/repository/io/opentelemetry/opentelemetry-api/1.43.0/opentelemetry-api-1.43.0.jar:/Users/saurabhgaur/.m2/repository/io/opentelemetry/opentelemetry-context/1.43.0/opentelemetry-context-1.43.0.jar:/Users/saurabhgaur/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.43.0/opentelemetry-exporter-logging-1.43.0.jar:/Users/saurabhgaur/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.43.0/opentelemetry-sdk-common-1.43.0.jar:/Users/saurabhgaur/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.43.0/opentelemetry-sdk-extension-autoconfigure-spi-1.43.0.jar:/Users/saurabhgaur/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.43.0/opentelemetry-sdk-extension-autoconfigure-1.43.0.jar:/Users/saurabhgaur/.m2/repository/io/opentelemetry/opentelemetry-api-incubator/1.43.0-alpha/opentelemetry-api-incubator-1.43.0-alpha.jar:/Users/saurabhgaur/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.43.0/opentelemetry-sdk-trace-1.43.0.jar:/Users/saurabhgaur/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.43.0/opentelemetry-sdk-1.43.0.jar:/Users/saurabhgaur/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.43.0/opentelemetry-sdk-metrics-1.43.0.jar:/Users/saurabhgaur/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.43.0/opentelemetry-sdk-logs-1.43.0.jar:/Users/saurabhgaur/.m2/repository/net/bytebuddy/byte-buddy/1.15.7/byte-buddy-1.15.7.jar:/Users/saurabhgaur/.m2/repository/org/seleniumhq/selenium/selenium-os/4.26.0/selenium-os-4.26.0.jar:/Users/saurabhgaur/.m2/repository/org/apache/commons/commons-exec/1.4.0/commons-exec-1.4.0.jar:/Users/saurabhgaur/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.26.0/selenium-safari-driver-4.26.0.jar:/Users/saurabhgaur/.m2/repository/org/seleniumhq/selenium/selenium-support/4.26.0/selenium-support-4.26.0.jar:/Users/saurabhgaur/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar:/Users/saurabhgaur/.m2/repository/io/reactivex/rxjava3/rxjava/3.1.6/rxjava-3.1.6.jar:/Users/saurabhgaur/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/Users/saurabhgaur/.m2/repository/org/freemarker/freemarker/2.3.32/freemarker-2.3.32.jar:/Users/saurabhgaur/.m2/repository/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar:/Users/saurabhgaur/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/saurabhgaur/.m2/repository/io/github/bonigarcia/webdrivermanager/5.9.1/webdrivermanager-5.9.1.jar:/Users/saurabhgaur/.m2/repository/com/github/docker-java/docker-java/3.3.6/docker-java-3.3.6.jar:/Users/saurabhgaur/.m2/repository/com/github/docker-java/docker-java-core/3.3.6/docker-java-core-3.3.6.jar:/Users/saurabhgaur/.m2/repository/com/github/docker-java/docker-java-api/3.3.6/docker-java-api-3.3.6.jar:/Users/saurabhgaur/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/Users/saurabhgaur/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/Users/saurabhgaur/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/saurabhgaur/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.3.6/docker-java-transport-httpclient5-3.3.6.jar:/Users/saurabhgaur/.m2/repository/com/github/docker-java/docker-java-transport/3.3.6/docker-java-transport-3.3.6.jar:/Users/saurabhgaur/.m2/repository/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar:/Users/saurabhgaur/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/saurabhgaur/.m2/repository/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar:/Users/saurabhgaur/.m2/repository/org/apache/commons/commons-compress/1.26.2/commons-compress-1.26.2.jar:/Users/saurabhgaur/.m2/repository/com/browserstack/browserstack-java-sdk/1.36.1/browserstack-java-sdk-1.36.1.jar:/Users/saurabhgaur/.m2/repository/com/konghq/unirest-java/3.13.6/unirest-java-3.13.6.jar:/Users/saurabhgaur/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/saurabhgaur/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/saurabhgaur/.m2/repository/org/apache/httpcomponents/httpcore-nio/4.4.13/httpcore-nio-4.4.13.jar:/Users/saurabhgaur/.m2/repository/org/apache/httpcomponents/httpasyncclient/4.1.5/httpasyncclient-4.1.5.jar:/Users/saurabhgaur/.m2/repository/org/blocks4j/commons/blocks4j-commons-classpath/1.0.1/blocks4j-commons-classpath-1.0.1.jar:/Users/saurabhgaur/.m2/repository/commons-io/commons-io/2.19.0/commons-io-2.19.0.jar:/Users/saurabhgaur/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2/httpclient5-5.2.jar:/Users/saurabhgaur/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2.jar:/Users/saurabhgaur/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2/httpcore5-h2-5.2.jar:/Users/saurabhgaur/.m2/repository/com/google/cloud/google-cloud-translate/2.24.0/google-cloud-translate-2.24.0.jar:/Users/saurabhgaur/.m2/repository/io/grpc/grpc-api/1.56.1/grpc-api-1.56.1.jar:/Users/saurabhgaur/.m2/repository/io/grpc/grpc-context/1.56.1/grpc-context-1.56.1.jar:/Users/saurabhgaur/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/saurabhgaur/.m2/repository/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar:/Users/saurabhgaur/.m2/repository/io/grpc/grpc-stub/1.56.1/grpc-stub-1.56.1.jar:/Users/saurabhgaur/.m2/repository/io/grpc/grpc-protobuf/1.56.1/grpc-protobuf-1.56.1.jar:/Users/saurabhgaur/.m2/repository/io/grpc/grpc-protobuf-lite/1.56.1/grpc-protobuf-lite-1.56.1.jar:/Users/saurabhgaur/.m2/repository/com/google/api/api-common/2.16.0/api-common-2.16.0.jar:/Users/saurabhgaur/.m2/repository/com/google/auto/value/auto-value-annotations/1.10.2/auto-value-annotations-1.10.2.jar:/Users/saurabhgaur/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/Users/saurabhgaur/.m2/repository/com/google/protobuf/protobuf-java/3.23.2/protobuf-java-3.23.2.jar:/Users/saurabhgaur/.m2/repository/com/google/api/grpc/proto-google-common-protos/2.24.0/proto-google-common-protos-2.24.0.jar:/Users/saurabhgaur/.m2/repository/com/google/api/grpc/proto-google-cloud-translate-v3beta1/0.106.0/proto-google-cloud-translate-v3beta1-0.106.0.jar:/Users/saurabhgaur/.m2/repository/com/google/api/grpc/proto-google-cloud-translate-v3/2.24.0/proto-google-cloud-translate-v3-2.24.0.jar:/Users/saurabhgaur/.m2/repository/com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.jar:/Users/saurabhgaur/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/saurabhgaur/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/saurabhgaur/.m2/repository/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.jar:/Users/saurabhgaur/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/Users/saurabhgaur/.m2/repository/com/google/api/gax/2.33.0/gax-2.33.0.jar:/Users/saurabhgaur/.m2/repository/io/opencensus/opencensus-api/0.31.1/opencensus-api-0.31.1.jar:/Users/saurabhgaur/.m2/repository/com/google/api/gax-grpc/2.33.0/gax-grpc-2.33.0.jar:/Users/saurabhgaur/.m2/repository/io/grpc/grpc-alts/1.56.1/grpc-alts-1.56.1.jar:/Users/saurabhgaur/.m2/repository/io/grpc/grpc-grpclb/1.56.1/grpc-grpclb-1.56.1.jar:/Users/saurabhgaur/.m2/repository/org/conscrypt/conscrypt-openjdk-uber/2.5.2/conscrypt-openjdk-uber-2.5.2.jar:/Users/saurabhgaur/.m2/repository/io/grpc/grpc-auth/1.56.1/grpc-auth-1.56.1.jar:/Users/saurabhgaur/.m2/repository/io/grpc/grpc-netty-shaded/1.56.1/grpc-netty-shaded-1.56.1.jar:/Users/saurabhgaur/.m2/repository/io/perfmark/perfmark-api/0.26.0/perfmark-api-0.26.0.jar:/Users/saurabhgaur/.m2/repository/io/grpc/grpc-core/1.56.1/grpc-core-1.56.1.jar:/Users/saurabhgaur/.m2/repository/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.jar:/Users/saurabhgaur/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.23/animal-sniffer-annotations-1.23.jar:/Users/saurabhgaur/.m2/repository/io/grpc/grpc-googleapis/1.56.1/grpc-googleapis-1.56.1.jar:/Users/saurabhgaur/.m2/repository/io/grpc/grpc-xds/1.56.1/grpc-xds-1.56.1.jar:/Users/saurabhgaur/.m2/repository/io/opencensus/opencensus-proto/0.2.0/opencensus-proto-0.2.0.jar:/Users/saurabhgaur/.m2/repository/io/grpc/grpc-services/1.56.1/grpc-services-1.56.1.jar:/Users/saurabhgaur/.m2/repository/com/google/re2j/re2j/1.7/re2j-1.7.jar:/Users/saurabhgaur/.m2/repository/com/google/api/gax-httpjson/2.33.0/gax-httpjson-2.33.0.jar:/Users/saurabhgaur/.m2/repository/com/google/http-client/google-http-client-gson/1.43.3/google-http-client-gson-1.43.3.jar:/Users/saurabhgaur/.m2/repository/com/google/protobuf/protobuf-java-util/3.23.2/protobuf-java-util-3.23.2.jar:/Users/saurabhgaur/.m2/repository/org/threeten/threetenbp/1.6.8/threetenbp-1.6.8.jar:/Users/saurabhgaur/.m2/repository/com/google/cloud/google-cloud-core/2.23.0/google-cloud-core-2.23.0.jar:/Users/saurabhgaur/.m2/repository/com/google/api/grpc/proto-google-iam-v1/1.19.0/proto-google-iam-v1-1.19.0.jar:/Users/saurabhgaur/.m2/repository/com/google/cloud/google-cloud-core-http/2.23.0/google-cloud-core-http-2.23.0.jar:/Users/saurabhgaur/.m2/repository/com/google/api-client/google-api-client/2.2.0/google-api-client-2.2.0.jar:/Users/saurabhgaur/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/saurabhgaur/.m2/repository/com/google/oauth-client/google-oauth-client/1.34.1/google-oauth-client-1.34.1.jar:/Users/saurabhgaur/.m2/repository/com/google/http-client/google-http-client-apache-v2/1.43.3/google-http-client-apache-v2-1.43.3.jar:/Users/saurabhgaur/.m2/repository/com/google/http-client/google-http-client-appengine/1.43.3/google-http-client-appengine-1.43.3.jar:/Users/saurabhgaur/.m2/repository/io/opencensus/opencensus-contrib-http-util/0.31.1/opencensus-contrib-http-util-0.31.1.jar:/Users/saurabhgaur/.m2/repository/com/google/apis/google-api-services-translate/v2-rev20170525-2.0.0/google-api-services-translate-v2-rev20170525-2.0.0.jar:/Users/saurabhgaur/.m2/repository/com/google/auth/google-auth-library-credentials/1.19.0/google-auth-library-credentials-1.19.0.jar:/Users/saurabhgaur/.m2/repository/com/google/auth/google-auth-library-oauth2-http/1.19.0/google-auth-library-oauth2-http-1.19.0.jar:/Users/saurabhgaur/.m2/repository/com/google/http-client/google-http-client/1.43.3/google-http-client-1.43.3.jar:/Users/saurabhgaur/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/saurabhgaur/.m2/repository/org/apache/httpcomponents/httpcore/4.4.16/httpcore-4.4.16.jar:/Users/saurabhgaur/.m2/repository/com/google/http-client/google-http-client-jackson2/1.43.3/google-http-client-jackson2-1.43.3.jar:/Users/saurabhgaur/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.15.2/jackson-core-2.15.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/saurabhgaur"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="BROWSERSTACK_CLI_BIN_LISTEN_ADDR" value="127.0.0.1:5400"/>
+    <property name="java.version.date" value="2025-04-15"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk/24.0.1/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/saurabhgaur/IdeaProjects/BrowserStackSeleniumAssessment"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/saurabhgaur/IdeaProjects/BrowserStackSeleniumAssessment/target/surefire/surefirebooter-20250713105021574_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="24.0.1"/>
+    <property name="user.name" value="saurabhgaur"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="otel.metrics.exporter" value="none"/>
+    <property name="os.version" value="15.4.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="otel.traces.exporter" value="none"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="BROWSERSTACK_CLI_BIN_SESSION_ID" value="6db62844-1812-4697-aae4-43c29c64de7e"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/saurabhgaur/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="otel.logs.exporter" value="none"/>
+    <property name="java.io.tmpdir" value="/var/folders/c5/_rp4gsps48716xfbqfv4b5sm0000gn/T/"/>
+    <property name="BROWSERSTACK_TESTHUB_UUID" value="x74ryog8x2q1s8ueuno6qwpqbbbz98ycic5s2whq"/>
+    <property name="java.version" value="24.0.1"/>
+    <property name="user.dir" value="/Users/saurabhgaur/IdeaProjects/BrowserStackSeleniumAssessment"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/saurabhgaur/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="24.0.1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="68.0"/>
+  </properties>
+  <testcase name="runTest" classname="Test1" time="9.712">
+    <system-out><![CDATA[Article 1
+Original: Vox manipula la inmigración
+Translated: Vox manipulates immigration
+Content: La narrativa xenófoba de los ultras da un paso más en su radicalización y esgrime teorías conspirativas para justificar deportaciones masivas
+-----------------------------------
+Article 2
+Original: Abascal come palomitas
+Translated: Abascal eats popcorn
+Content: El líder de Vox hoy no tiene prisa ni le hace falta extremar su retórica. Nadie suma más que él
+-----------------------------------
+Article 3
+Original: Embajada a Calígula
+Translated: Embassy to Caligula
+Content: Observar algunas actitudes de sumisión europeas ante Trump evocan  trato que recibía  el célebre emperador romano
+-----------------------------------
+Article 4
+Original: La oposición a Trump busca equilibrio
+Translated: The opposition to Trump seeks balance
+Content: Los abusos del presidente pueden cambiar la tendencia de voto y los demócratas deben canalizarla
+-----------------------------------
+Article 5
+Original: Tiempos muertos
+Translated: Timeouts
+Content: Todos los días miles de habitantes del Estado de México recorren largos trayectos en transporte público, alrededor de cuatro horas diarias, para llegar a sus lugares de estudio, trabajo o para obtener algún servicio en la Ciudad de México, lo que forma parte del fenómeno social conocido como población flotante. Es decir, aquellas personas que habitan un territorio pero que se tienen que desplazar diariamente a otro. Yo formo parte de esta población, por lo que desde hace algunos años comencé a documentar mis trayectos de Ciudad Neza a la Ciudad de México.
+-----------------------------------
+Repeated Words in Translated Headers:
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Jul 13, 2025 10:50:32 AM org.openqa.selenium.remote.tracing.opentelemetry.OpenTelemetryTracer createTracer
+INFO: Using OpenTelemetry for tracing
+]]></system-err>
+  </testcase>
+  <testcase name="runTest" classname="Test1" time="17.268">
+    <system-out><![CDATA[Article 1
+Original: Vox manipula la inmigración
+Translated: Vox manipulates immigration
+Content: La narrativa xenófoba de los ultras da un paso más en su radicalización y esgrime teorías conspirativas para justificar deportaciones masivas
+-----------------------------------
+Article 2
+Original: Abascal come palomitas
+Translated: Abascal eats popcorn
+Content: El líder de Vox hoy no tiene prisa ni le hace falta extremar su retórica. Nadie suma más que él
+-----------------------------------
+Article 3
+Original: Embajada a Calígula
+Translated: Embassy to Caligula
+Content: Observar algunas actitudes de sumisión europeas ante Trump evocan trato que recibía el célebre emperador romano
+-----------------------------------
+Article 4
+Original: La oposición a Trump busca equilibrio
+Translated: The opposition to Trump seeks balance
+Content: Los abusos del presidente pueden cambiar la tendencia de voto y los demócratas deben canalizarla
+-----------------------------------
+Article 5
+Original: 
+Translated: 
+Content: 
+-----------------------------------
+Repeated Words in Translated Headers:
+]]></system-out>
+  </testcase>
+  <testcase name="runTest" classname="Test1" time="5.878">
+    <system-out><![CDATA[Article 1
+Original: Vox manipula la inmigración
+Translated: Vox manipulates immigration
+Content: La narrativa xenófoba de los ultras da un paso más en su radicalización y esgrime teorías conspirativas para justificar deportaciones masivas
+-----------------------------------
+Article 2
+Original: Abascal come palomitas
+Translated: Abascal eats popcorn
+Content: El líder de Vox hoy no tiene prisa ni le hace falta extremar su retórica. Nadie suma más que él
+-----------------------------------
+Article 3
+Original: Embajada a Calígula
+Translated: Embassy to Caligula
+Content: Observar algunas actitudes de sumisión europeas ante Trump evocan trato que recibía el célebre emperador romano
+-----------------------------------
+Article 4
+Original: 
+Translated: 
+Content: Los abusos del presidente pueden cambiar la tendencia de voto y los demócratas deben canalizarla
+-----------------------------------
+Article 5
+Original: 
+Translated: 
+Content: 
+-----------------------------------
+Repeated Words in Translated Headers:
+]]></system-out>
+  </testcase>
+  <testcase name="runTest" classname="Test1" time="10.709">
+    <system-out><![CDATA[Article 1
+Original: Vox manipula la inmigración
+Translated: Vox manipulates immigration
+Content: La narrativa xenófoba de los ultras da un paso más en su radicalización y esgrime teorías conspirativas para justificar deportaciones masivas
+-----------------------------------
+Article 2
+Original: Abascal come palomitas
+Translated: Abascal eats popcorn
+Content: El líder de Vox hoy no tiene prisa ni le hace falta extremar su retórica. Nadie suma más que él
+-----------------------------------
+Article 3
+Original: Embajada a Calígula
+Translated: Embassy to Caligula
+Content: Observar algunas actitudes de sumisión europeas ante Trump evocan trato que recibía el célebre emperador romano
+-----------------------------------
+Article 4
+Original: La oposición a Trump busca equilibrio
+Translated: The opposition to Trump seeks balance
+Content: Los abusos del presidente pueden cambiar la tendencia de voto y los demócratas deben canalizarla
+-----------------------------------
+Article 5
+Original: 
+Translated: 
+Content: 
+-----------------------------------
+Repeated Words in Translated Headers:
+Article 1
+Original: Vox manipula la inmigración
+Translated: Vox manipulates immigration
+Content: La narrativa xenófoba de los ultras da un paso más en su radicalización y esgrime teorías conspirativas para justificar deportaciones masivas
+-----------------------------------
+Article 2
+Original: Abascal come palomitas
+Translated: Abascal eats popcorn
+Content: El líder de Vox hoy no tiene prisa ni le hace falta extremar su retórica. Nadie suma más que él
+-----------------------------------
+Article 3
+Original: Embajada a Calígula
+Translated: Embassy to Caligula
+Content: Observar algunas actitudes de sumisión europeas ante Trump evocan  trato que recibía  el célebre emperador romano
+-----------------------------------
+Article 4
+Original: La oposición a Trump busca equilibrio
+Translated: The opposition to Trump seeks balance
+Content: Los abusos del presidente pueden cambiar la tendencia de voto y los demócratas deben canalizarla
+-----------------------------------
+Article 5
+Original: Tiempos muertos
+Translated: Timeouts
+Content: Todos los días miles de habitantes del Estado de México recorren largos trayectos en transporte público, alrededor de cuatro horas diarias, para llegar a sus lugares de estudio, trabajo o para obtener algún servicio en la Ciudad de México, lo que forma parte del fenómeno social conocido como población flotante. Es decir, aquellas personas que habitan un territorio pero que se tienen que desplazar diariamente a otro. Yo formo parte de esta población, por lo que desde hace algunos años comencé a documentar mis trayectos de Ciudad Neza a la Ciudad de México.
+-----------------------------------
+Repeated Words in Translated Headers:
+]]></system-out>
+  </testcase>
+  <testcase name="runTest" classname="Test1" time="12.485"/>
+  <testcase name="runTest" classname="Test1" time="2.965">
+    <system-out><![CDATA[Article 1
+Original: Vox manipula la inmigración
+Translated: Vox manipulates immigration
+Content: La narrativa xenófoba de los ultras da un paso más en su radicalización y esgrime teorías conspirativas para justificar deportaciones masivas
+-----------------------------------
+Article 2
+Original: Abascal come palomitas
+Translated: Abascal eats popcorn
+Content: El líder de Vox hoy no tiene prisa ni le hace falta extremar su retórica. Nadie suma más que él
+-----------------------------------
+Article 3
+Original: Embajada a Calígula
+Translated: Embassy to Caligula
+Content: Observar algunas actitudes de sumisión europeas ante Trump evocan trato que recibía el célebre emperador romano
+-----------------------------------
+Article 4
+Original: 
+Translated: 
+Content: Los abusos del presidente pueden cambiar la tendencia de voto y los demócratas deben canalizarla
+-----------------------------------
+Article 5
+Original: 
+Translated: 
+Content: 
+-----------------------------------
+Repeated Words in Translated Headers:
+]]></system-out>
+  </testcase>
+  <testcase name="runTest" classname="Test1" time="16.203">
+    <system-out><![CDATA[Article 1
+Original: Vox manipula la inmigración
+Translated: Vox manipulates immigration
+Content: La narrativa xenófoba de los ultras da un paso más en su radicalización y esgrime teorías conspirativas para justificar deportaciones masivas
+-----------------------------------
+Article 2
+Original: Abascal come palomitas
+Translated: Abascal eats popcorn
+Content: El líder de Vox hoy no tiene prisa ni le hace falta extremar su retórica. Nadie suma más que él
+-----------------------------------
+Article 3
+Original: Embajada a Calígula
+Translated: Embassy to Caligula
+Content: Observar algunas actitudes de sumisión europeas ante Trump evocan trato que recibía el célebre emperador romano
+-----------------------------------
+Article 4
+Original: La oposición a Trump busca equilibrio
+Translated: The opposition to Trump seeks balance
+Content: Los abusos del presidente pueden cambiar la tendencia de voto y los demócratas deben canalizarla
+-----------------------------------
+Article 5
+Original: 
+Translated: 
+Content: 
+-----------------------------------
+Repeated Words in Translated Headers:
+Article 1
+Original: Vox manipula la inmigración
+Translated: Vox manipulates immigration
+Content: La narrativa xenófoba de los ultras da un paso más en su radicalización y esgrime teorías conspirativas para justificar deportaciones masivas
+-----------------------------------
+Article 2
+Original: Abascal come palomitas
+Translated: Abascal eats popcorn
+Content: El líder de Vox hoy no tiene prisa ni le hace falta extremar su retórica. Nadie suma más que él
+-----------------------------------
+Article 3
+Original: Embajada a Calígula
+Translated: Embassy to Caligula
+Content: Observar algunas actitudes de sumisión europeas ante Trump evocan  trato que recibía  el célebre emperador romano
+-----------------------------------
+Article 4
+Original: La oposición a Trump busca equilibrio
+Translated: The opposition to Trump seeks balance
+Content: Los abusos del presidente pueden cambiar la tendencia de voto y los demócratas deben canalizarla
+-----------------------------------
+Article 5
+Original: Tiempos muertos
+Translated: Timeouts
+Content: Todos los días miles de habitantes del Estado de México recorren largos trayectos en transporte público, alrededor de cuatro horas diarias, para llegar a sus lugares de estudio, trabajo o para obtener algún servicio en la Ciudad de México, lo que forma parte del fenómeno social conocido como población flotante. Es decir, aquellas personas que habitan un territorio pero que se tienen que desplazar diariamente a otro. Yo formo parte de esta población, por lo que desde hace algunos años comencé a documentar mis trayectos de Ciudad Neza a la Ciudad de México.
+-----------------------------------
+Repeated Words in Translated Headers:
+]]></system-out>
+  </testcase>
+  <testcase name="runTest" classname="Test1" time="20.244">
+    <system-out><![CDATA[Article 1
+Original: Vox manipula la inmigración
+Translated: Vox manipulates immigration
+Content: La narrativa xenófoba de los ultras da un paso más en su radicalización y esgrime teorías conspirativas para justificar deportaciones masivas
+-----------------------------------
+Article 2
+Original: Abascal come palomitas
+Translated: Abascal eats popcorn
+Content: El líder de Vox hoy no tiene prisa ni le hace falta extremar su retórica. Nadie suma más que él
+-----------------------------------
+Article 3
+Original: Embajada a Calígula
+Translated: Embassy to Caligula
+Content: Observar algunas actitudes de sumisión europeas ante Trump evocan trato que recibía el célebre emperador romano
+-----------------------------------
+Article 4
+Original: 
+Translated: 
+Content: Los abusos del presidente pueden cambiar la tendencia de voto y los demócratas deben canalizarla
+-----------------------------------
+Article 5
+Original: 
+Translated: 
+Content: 
+-----------------------------------
+Repeated Words in Translated Headers:
+]]></system-out>
+  </testcase>
+  <testcase name="runTest" classname="Test1" time="23.281"/>
+</testsuite>
